@@ -3,7 +3,7 @@
 """Pretrain and SFT GPT."""
 
 import torch
-
+from typing import Any
 from functools import partial
 from typing import List, Optional, Tuple
 from megatron.core import parallel_state
