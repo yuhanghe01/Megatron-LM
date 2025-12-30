@@ -6,7 +6,7 @@ DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE --nnodes $NNODES --node_rank $
 CHECKPOINT_PATH=/mnt/blob-data-sigmasystem-out/yuhang/Cairn/ckpt/ckpt_megatron/
 VOCAB_FILE=/mnt/blob-data-sigmasystem/yuhang/Cairn/gpt2_data/vocab.json
 MERGE_FILE=/mnt/blob-data-sigmasystem/yuhang/Cairn/gpt2_data/merges.txt
-DATA_PATH=/mnt/blob-data-sigmasystem/yuhang/Cairn/megatron/
+DATA_PATH=/mnt/blob-data-sigmasystem/yuhang/Cairn/megatron/codeparrot_content_document
 GPT_ARGS="--num-layers 12
 --hidden-size 768
 --num-attention-heads 12
